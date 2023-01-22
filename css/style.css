@@ -263,6 +263,10 @@ h5 {
   color: #19191b;
 }
 
+.color-white {
+  color: #fff;
+}
+
 .bd-radius {
   border-radius: 10px;
 }
@@ -278,6 +282,18 @@ h5 {
 .btn-active {
   background: #5454d4;
   color: #fff;
+}
+
+.basically {
+  transform: scale(1.08);
+}
+
+.op-7 {
+  opacity: 0.7;
+}
+
+.logo:hover {
+  transform: scale(1.01);
 }
 
 .menu {
@@ -342,7 +358,7 @@ h5 {
   padding: 34px 24px 27px;
 }
 .plan__btn:hover {
-  background: #9F3919;
+  background: #9f3919;
   color: #fff;
 }
 

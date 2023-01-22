@@ -204,7 +204,9 @@ h5 {
    color: #19191b;
 }
 
-
+.color-white {
+   color: #fff;
+}
 // RADIUS STRUCTURE=========================
 
 .bd-radius {
@@ -226,9 +228,21 @@ h5 {
    color: #fff;
 }
 
-// MODIFY STRUCTURE #########################################
+// basically STRUCTURE=========================
 
+.basically {
+   transform: scale(1.08);
+}
+// OPACITY STRUCTURE=========================
+.op-7 {
+   opacity: .7;
+}
 
+// MODIFY STRUCTURE ###########################################################
+
+.logo:hover {
+   transform: scale(1.01);
+}
 
 // menu----------
 .menu {
@@ -304,10 +318,11 @@ h5 {
       padding: 34px 24px 27px;
    }
    &__btn:hover {
-      background: #9F3919;
+      background: #9f3919;
       color: #fff;
    }
 }
+
 
 
 @media (max-width: 1190px) {
@@ -339,7 +354,6 @@ h5 {
    }
 }
 
-
 @media (max-width: 620px) {
    .illustrate {
       display: none;
@@ -363,7 +377,6 @@ h5 {
       font-size: 16px;
    }
 }
-
 
 @media (max-width: 400px) {
    .plan__block {
